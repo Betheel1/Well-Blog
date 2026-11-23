@@ -1,0 +1,87 @@
+
+/* =========================================
+   WELLNESS WISDOM — GLOBAL STYLES
+   ========================================= */
+
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&display=swap");
+
+:root {
+  font-family: "DM Sans", "Trebuchet MS", Arial, sans-serif;
+  color: #303a2e;
+  background: #faf8f1;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --color-sage: #75866a;
+  --color-sage-dark: #455641;
+  --color-cream: #faf8f1;
+  --color-paper: #fffefb;
+  --color-text: #303a2e;
+  --color-muted: #777c70;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  min-width: 320px;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+}
+
+body {
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0;
+}
+
+body,
+button,
+input {
+  font-family: "DM Sans", "Trebuchet MS", Arial, sans-serif;
+}
+
+button,
+input {
+  font-size: inherit;
+}
+
+button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--color-sage);
+  outline-offset: 4px;
+}
+
+a {
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  overflow-wrap: break-word;
+}
+
+::selection {
+  background: #dce5d2;
+  color: #303a2e;
+}
+
+#root {
+  min-height: 100vh;
+  width: 100%;
+}
